@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Tourney&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Tourney", cursive;
+  font-size: 16px;
+
+  margin: 0;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: thistle;
+}
+
+.button-container {
+  background-color: teal;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  box-shadow: 0px 2px 10px rgb(165, 165, 165);
+}
+
+.button-container button {
+  background-color: slategrey;
+  color: seashell;
+  border: none;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.button-container button:hover {
+  background-color: thistle;
+  color: teal;
+}
+
+.button-container button:active {
+  transform: translateY(0.5rem);
+}
